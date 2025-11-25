@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="birthdayMusic" src="Happy birthday.mp3" loop autoplay></audio>
+
+    <div class="container">
+        <h1>🎉 Selamat Ulang Tahun! 🥳</h1>
+        <p id="message">Semoga hari ini penuh kebahagiaan dan berkah!</p>
+        
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                
+                <div class="carousel-slide">
+                    <img src="Foto1.jpg" alt="Foto Ulang Tahun 1" class="carousel-img">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Foto2.jpg" alt="Foto Ulang Tahun 2" class="carousel-img">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Foto3.jpg" alt="Foto Ulang Tahun 3" class="carousel-img">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Foto4.jpg" alt="Foto Ulang Tahun 4" class="carousel-img">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Foto5.jpg" alt="Foto Ulang Tahun 5" class="carousel-img">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Foto6.jpg" alt="Foto Ulang Tahun 6" class="carousel-img">
+                </div>
+                
+            </div>
+            <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+            <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+
+        <button id="surpriseBtn">Buka Kejutan!</button>
+        
+        <div id="surprise" class="hidden">
+            <h2>Di Hari Bahagiamu Ini</h2>
+            <p>terimakasih sudah menjadi salah satu alasan hari-hariku terasa lebih baik, terimakasih atas saran yang kamu berikan disaat aku benar benar bingung, terimakasih sudah bersedia menjadi pendengar yang baik, Semoga semua impianmu tercapai! Semoga tahun ke-21 ini penuh dengan tawa, kejutan menyenangkan, dan keberkahan yang tak terhingga untukmu, Salwa!</p>
+            <img src="cute cat hbd.jpeg" alt="Gambar Kue Ulang Tahun" class="cake-image">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
